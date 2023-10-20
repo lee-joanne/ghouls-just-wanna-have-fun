@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand&display=swap');
+
+h1, h2, h3, h5, .navbar-brand {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body, a, footer, i {
+        cursor: url('./assets/images/monster-hand-pointing.png'), auto;	
+}
+
+.navbar-brand {
+    color: #228B22;
+}
+
+
+.nav-item, .navbar-toggler {
+    background: transparent;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+
+.nav-item a:hover {
+    color: #FF6600;
+}
+
 .event-container {
     padding: 10px;
     border-radius: 25px;
@@ -11,16 +40,18 @@
 }
 
 .navbar {
-    background-color: brown;
+    background-color: #000000;
 }
 
-.hero-overlay {
+.hero {
     position: relative;
-}
-
-.hero-overlay img {
+    height: 750px;
     width: 100%;
-    height: auto;
+    overflow: hidden;
+    background-image: url(./assets/images/scull3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .hero-title {
@@ -30,6 +61,45 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     color: #fff;
-    font-size: 24px;
+    font-size: 500%;
     /* Adjust the font size as needed */
+}
+
+.info {
+    color: #f5f5f5;
+    background-color: #000000;
+    padding: 50px 50px;
+    text-align: justify;
+}
+
+h5 {
+    color: #FF6600;
+}
+
+footer {
+    height: 20px;
+    bottom: 0;
+    position: relative;
+    color: #f5f5f5;
+    background-color: #000000;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: #000000;
+    color: #f5f5f5;
+}
+
+.social-networks > li {
+    display: inline;
+    padding: 0 5%;
+}
+
+.social-networks i {
+    bottom: 1%;
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: #f5f5f5;
+    cursor: url('./assets/images/monster-hand-pointing.png'), auto;	
 }

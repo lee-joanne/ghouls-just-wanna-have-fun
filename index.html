@@ -6,30 +6,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Bootstrap, FontAwesome and CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/04ce61957a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#">Ghouls</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark nav">
+        <h1 class="navbar-brand">Ghouls Just Wanna Have Fun</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -38,11 +39,10 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-overlay">
-            <img src="./assets/images/scull3.png" alt="" class="img-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h1 class="hero-title text-white">Welcome to Ghouls events!</h1>
+                        <h1 class="hero-title text-white">Welcome to <span class="g">G</span>houls events!</h1>
                     </div>
                 </div>
             </div>
@@ -51,90 +51,113 @@
 
     <!-- Information Divs -->
     <section class="info">
-        <div class="container">
-            <!-- Add your information divs here -->
-        </div>
-    </section>
-
-    <!-- Event Containers -->
-    <!-- Event Containers -->
-    <!-- Event Containers -->
-    <section class="events">
-        <div class="container">
-            <div class="row">
-                <!-- First row with 2 event containers -->
-                <div class="col-md-6">
-                    <a href="#event1">
-                        <div class="event-container">
-                            <img src="./assets/images/baby.png" alt="" class="img-fluid">
-                        </div>
-                    </a>
+        <!-- Add your information divs here -->
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col-md-3 text-cente">
+                    <h5>🦇 Who We Are 🦇</h5>
+                    <hr>
+                    <p>
+                        Here at Ghouls Just Wanna Have Fun, we are the architects of your darkest
+                        fantasies.
+                        <br>
+                        <br>We are a team of dedicated and passionate souls who have an
+                        unquenchable thirst for the supernatural, the macabre, and all things spine-chilling. Our very
+                        existence is steeped in a world where creaking doors, moonlit graveyards, and things that
+                        go bump in the night are the norm.
+                        <br>
+                        <br>With a deep appreciation for the eerie and a profound understanding
+                        of the supernatural, we're here to take your events to the edge of the abyss and beyond.
+                    </p>
                 </div>
-                <div class="col-md-6">
-                    <a href="#event2">
-                        <div class="event-container">
-                            <img src="./assets/images/house.png" class="house" alt="" class="img-fluid">
-                        </div>
-                    </a>
+                <div class="vr"></div>
+                <div class="col">
+                    <h5>👻 Our Ethos 👻</h5>
+                    <hr>
+                    <p>
+                        We believe that life is richer when it's infused with a little bit
+                        of the unknown.
+                        <br>
+                        <br>Our mission is to create immersive experiences that blur the line
+                        between reality and the paranormal. From hair-raising haunted houses to cryptic escape
+                        rooms, and from eerie masquerade balls to an immersive zombie apocalypse, our events are
+                        designed to transport you into the heart of the unexplained.
+                        <br>
+                        <br>Our dedication to authenticity and storytelling sets us apart, as we strive to ignite your
+                        imaginations and keep you in suspense from the first whisper of our invitations.
+                    </p>
                 </div>
-                <!-- Second row with 2 event containers -->
-                <div class="col-md-6">
-                    <a href="#event3">
-                        <div class="event-container">
-                            <img src="./assets/images/pumpkin.png" alt="" class="img-fluid">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="#event4">
-                        <div class="event-container">
-                            <img src="./assets/images/witch.png" alt="" class="img-fluid">
-                        </div>
-                    </a>
+                <div class="vr"></div>
+                <div class="col">
+                    <h5>💀 What We Offer 💀</h5>
+                    <hr>
+                    <h5>Themed Events:</h5>
+                    <p>
+                        Each event is a meticulously crafted
+                        masterpiece, featuring an
+                        array of eerie themes and chilling settings, from gothic castles
+                        to abandoned
+                        asylums.
+                    </p>
+                    <br>
+                    <h5>Immersive Experiences:</h5>
+                    <p>
+                        We take pride in our attention to
+                        detail, weaving rich
+                        narratives that will have you questioning the boundaries of
+                        reality.
+                    </p>
+                    <br>
+                    <h5>Professional Performers:</h5>
+                    <p>
+                        Our team of talented actors,
+                        illusionists, and
+                        paranormal experts will keep you spellbound from the moment you
+                        arrive.
+                    </p>
+                    <br>
+                    <h5>Customization:</h5>
+                    <p>
+                        We'll work closely with you to ensure your
+                        event is tailor-made to
+                        your darkest desires and requirements.
+                    </p>
+                    <br>
+                    <h5>Seasonal Spooks:</h5>
+                    <p>
+                        Whether it's Halloween, Friday the 13th, or
+                        any other occasion,
+                        we'll make sure your event is a chilling success.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-    <!-- Contact Form -->
-    <section class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <h2>Contact Us</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="comments">Comments</label>
-                            <textarea class="form-control" id="comments" rows="4"
-                                placeholder="Your Comments"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
+    <footer class="footer mt-auto text-center navbar-dark bg-dark">
+        <div class="social-networks">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"
+                    style="color: #FF6600;"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-twitter"
+                    style="color: #FF6600;"></i></a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"
+                    style="color: #FF6600;"></i></a>
         </div>
-    </section>
+    </footer>
 
     <!-- Add Bootstrap JS and jQuery script links here -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
