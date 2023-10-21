@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corn Maze/Haunted House for Halloween</title>
+ 
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+
+        <!-- goggle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eater&family=Inter:wght@100;200;300;500;600;700;800;900&family=Nosifer&display=swap" rel="stylesheet">
+       
+    <!-- favicon -->
+        <link rel="icon" href="assets/images/favicon.png" />
+        <link rel="stylesheet" href="assets/styles/style.css" />
+        <link rel="stylesheet" href="assets/styles/maze.css" />
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-3">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" width="375" height="35" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+
+  <!-- Add an eerie background music -->
+  <audio id="bg-music" loop autoplay muted>
+    <source src="https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/music/race1.ogg" type="audio/ogg">
+  </audio>
+
+
+    <div class="container-fluid p-0 m-0">
+        <section class="banner text-center text-light d-flex justify-content-center align-items-center">
+            <h1>The Haunted Corn Maze</h1>
+        </section>
+        <div class="spider_0">
+            <div class="mouth"></div>
+             <div class="eye left"></div>
+             <div class="eye right"></div>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+         </div>
+         <div class="spider_1">
+             <div class="mouth">
+               <div class="tooth left"></div>
+               <div class="tooth right"></div>
+             </div>
+             <div class="eye left"></div>
+             <div class="eye right"></div>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+         </div>
+         <div class="spider_2">
+             <div class="eye left"></div>
+             <div class="eye right"></div>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+         </div>
+         <div class="spider_3">
+             <div class="mouth">
+               <div class="tooth left"></div>
+               <div class="tooth right"></div>
+             </div>
+             <div class="eye left"></div>
+             <div class="eye right"></div>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+         </div>
+         <div class="spider_4">
+             <div class="mouth">
+               <div class="tooth left"></div>
+               <div class="tooth right"></div>
+             </div>
+             <div class="eye left"></div>
+             <div class="eye right"></div>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+         </div>
+         <div class="spider_5">
+             <div class="eye left"></div>
+             <div class="eye right"></div>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg left"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+             <span class="leg right"></span>
+         </div>
+         <div class="spider_6">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <span class="leg left"></span>
+            <span class="leg left"></span>
+            <span class="leg left"></span>
+            <span class="leg left"></span>
+            <span class="leg right"></span>
+            <span class="leg right"></span>
+            <span class="leg right"></span>
+            <span class="leg right"></span>
+        </div>
+        <div class="spider_7">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <span class="leg left"></span>
+            <span class="leg left"></span>
+            <span class="leg left"></span>
+            <span class="leg left"></span>
+            <span class="leg right"></span>
+            <span class="leg right"></span>
+            <span class="leg right"></span>
+            <span class="leg right"></span>
+        </div>
+         
+        <section class="info-section">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="row"> <!-- Add an inner row -->
+                    <div class="col-md-5 d-flex align-items-center"> <!-- Use d-flex and align-items-center to vertically center the content --> 
+                      <div class="info-text">
+                        <h2 class="smoky-text smoky-text-title">About the Corn Maze</h2>
+                        <ul class="smoke">
+                            <li>It is a twist on the original corn maze, with spooky stuff inside to frighten you,</li>
+                            <li>including ghosts, skeletons, clowns, werewolves, ax murderers, and other Halloween stereotypes.</li>
+                            <li>The maze is usually held at night,</li>
+                            <li>and creatures and monsters hide in the corn to scare and chase anyone who comes near them.</li>
+                        </ul>
+                    </div>
+                    
+                    </div>
+                    <div id="lottie-box" class="col-md-7">
+                        <div id="lottie-container"></div>
+                    </div>
+                </div>
+            </div> 
+          </div>
+        </section>
+
+        <section class="what-expect-section pt-5 pb-5">
+          <div class="text-center mb-5">
+              <h2 class="expect-title">What to expect?</h2>
+          </div>
+      
+          <div class="row">
+              <div class="col-md-6">
+                  <div id="vampire-container" class="reveal-content"></div>
+              </div>
+      
+              <div class="col-md-6 d-flex align-items-center reveal-content">
+                  <div class="info-text" id="vampire-text">
+                      <div>
+                        People dressed up as Halloween stereotypes, such as clowns, werewolves, 
+                        and ax murderers, hiding in the corn and jumping out to scare and chase 
+                        anyone who comes near them.
+                      </div>
+                  </div>
+              </div>
+             
+            
+          </div>
+      
+          <div class="row mt-5">
+            <div class="col-md-6 d-flex align-items-center reveal-content">
+              <div class="info-text" id="ghost-text">
+                  <div>
+                      Ghosts and demons in a witch's house, an abandoned sanitarium, and a vampire crypt.
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div id="ghost-container" class="lottie-animation"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="ghost-container-1" class="lottie-animation"></div>
+                    </div>
+                    <div class="col-md-4">
+                      <div id="ghost-container-2" class="lottie-animation"></div>
+                  </div>
+                </div>
+              </div>
+                  
+              </div>
+         
+              <div class="col-md-6">
+                <div id="witch-container" class="reveal-content"></div>
+              </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+                <div id="zombie-container" class="reveal-content"></div>
+            </div>
+    
+            <div class="col-md-6 d-flex align-items-center reveal-content">
+                <div class="info-text" id="zombie-text">
+                    <div>
+                      A terrifying tram ride through the deep woods, complete with werewolves and zombies.
+                    </div>
+                </div>
+            </div>
+           
+          
+        </div>
+      </section>
+      
+     
+      
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.9/lottie.min.js"></script>
+
+    <!-- <script src="./assets/js/script.js"></script> -->
+
+    <script>
+
+      // witch house
+      var animation = lottie.loadAnimation({
+          container: document.getElementById('lottie-container'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+    
+          path: '../assets/js/happy-halloween.json'  // path to your animation file
+      });
+
+      // vampire
+      var vampireAnim= lottie.loadAnimation({
+          container: document.getElementById('vampire-container'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: '../assets/json/vampire.json'  // path to your animation file
+      });
+
+      // Ghost
+      var ghostAnim= lottie.loadAnimation({
+          container: document.getElementById('ghost-container'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: '../assets/json/ghost.json'  // path to your animation file
+      });
+
+      var ghostAnim1 = lottie.loadAnimation({
+          container: document.getElementById('ghost-container-1'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: '../assets/json/ghost.json'  // path to your animation file
+      });
+
+      var ghostAnim2 = lottie.loadAnimation({
+          container: document.getElementById('ghost-container-2'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: '../assets/json/ghost.json'  // path to your animation file
+      });
+
+      // witch
+      var witchAnim = lottie.loadAnimation({
+          container: document.getElementById('witch-container'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: '../assets/json/halloween-witch.json'
+      });
+
+      var ZombieAnim = lottie.loadAnimation({
+          container: document.getElementById('zombie-container'),
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          path: '../assets/json/zombie.json'  // path to your animation file
+      });
+
+
+
+// fading of texts
+      // for 
+      $(window).on('scroll', function() {
+        var elemTop = $('.smoky-text').offset().top;
+        var elemHeight = $('.smoky-text').height();
+        var windowHeight = $(window).height();
+        var windowTop = $(window).scrollTop();
+        
+        if (windowTop + windowHeight > elemTop && windowTop < elemTop + elemHeight) {
+            $('.smoky-text').css({
+                'opacity': '1',
+                'transform': 'translateY(0)'
+            });
+        } else {
+            $('.smoky-text').css({
+                'opacity': '0',
+                'transform': 'translateY(-20px)'
+            });
+          }
+      });    
+
+
+    $(window).on('scroll', function() {
+    
+    var windowHeight = $(window).height();
+    var windowTop = $(window).scrollTop();
+    
+    $('.reveal-content').each(function() {
+        var elemTop = $(this).offset().top;
+        var elemHeight = $(this).height();
+
+        if (windowTop + windowHeight > elemTop && windowTop < elemTop + elemHeight) {
+            $(this).css({
+                'opacity': '1',
+                'transform': 'translateY(0)'
+            });
+        } else {
+            $(this).css({
+                'opacity': '0',
+                'transform': 'translateY(30px)'
+            });
+        }
+    });
+});
+
+
+  </script>
+  
+</body>
+</html>
