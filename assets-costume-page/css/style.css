@@ -35,6 +35,9 @@ nav a:hover {
     color: #228B22 !important;
 }
 
+.active {
+    color: #228B22 !important;
+}
 
 .main-text {
     font-family: 'Butcherman';
@@ -145,3 +148,11 @@ footer {
     cursor: url('./assets/images/monster-hand-pointing.png'), auto;	
 }
 
+/* Media query for logo in nav bar  */
+
+@media screen and (max-width: 485px) {
+  .logo {
+    width: 275px !important;
+    height: 30px
+  }
+}

@@ -27,6 +27,10 @@ nav a:hover {
     color: #228B22 !important;
 }
 
+.active {
+    color: #228B22 !important;
+}
+
 .events-header {
     font-family: 'Butcherman';
 }
@@ -135,7 +139,7 @@ footer {
 .contactme-container {
     background: url(../images/contactbackground.jpeg) no-repeat fixed center/cover;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
 }
 
 .contactme {
@@ -193,5 +197,23 @@ footer {
 
 .fourohfour-icon:hover {
     color: #8B0000
+}
+
+/* Media query for contact page  */
+
+@media screen and (max-width: 1050px) {
+  .contactme {
+    width: 75%;
+    padding: 50px;
+  }
+}
+
+/* Media query for logo in nav bar  */
+
+@media screen and (max-width: 485px) {
+  .logo {
+    width: 275px !important;
+    height: 30px
+  }
 }
 

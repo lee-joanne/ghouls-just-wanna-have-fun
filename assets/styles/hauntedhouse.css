@@ -1,0 +1,52 @@
+.hauntedhouse-container h1 {
+    font-family: 'Butcherman';
+}
+
+.hauntedhouse-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hauntedhouse-container {
+    height: 100%;
+    background-image: url(../images/hauntedhouse-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hauntedhouse-div {
+    margin: auto;
+    height: auto;
+    width: 75%;
+    background:rgba(255,255,255, 0.1);
+    text-align: center;
+}
+
+.hauntedhouse-div h3 {
+    margin: 0 100px;
+}
+
+.hauntedhouse-div h4 {
+    color: #FF6600;
+    font-family: 'Delicious Handrawn', cursive !important;
+    font-size: 30px;
+}
+
+
+.haunted-header {
+    color: #FF6600;
+}
+
+.hauntedimage-container img {
+    border-radius: 50%;
+}
+
+.hauntedimage-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.emphasized { font-style: italic; }

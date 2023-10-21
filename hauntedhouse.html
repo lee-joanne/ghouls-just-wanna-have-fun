@@ -18,6 +18,7 @@
     <!-- favicon -->
     <link rel="icon" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/hauntedhouse.css" />
   </head>
 
   <body>
@@ -25,7 +26,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark p-3">
       <a class="navbar-brand" href="index.html">
         <img
-          class="logo"
           src="assets/images/logo.png"
           alt="company logo"
           width="375"
@@ -58,77 +58,56 @@
       </div>
     </nav>
 
-    <!-- Event Containers -->
-    <section class="events text-center pt-3 pb-5">
-      <h1 class="events-header text-center text-white">
-        Feeling brave? Browse our events
-      </h1>
-      <img
-        class="pb-3"
-        src="assets/images/eventsgif.gif"
-        alt="rotating skull gif"
-        width="150"
-        height="150"
-      />
-      <div class="container">
-        <div class="row">
-          <!-- First row with 2 event containers -->
-          <div class="col-md-6 pb-5">
-            <a class="events-link" href="costume-party.html">
-              <div>
-                <h1>Costume Party</h1>
-                <div>
-                  <img
-                    src="assets/images/costumepartyimage.jpeg"
-                    alt="image of woman in scary costume"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </a>
+    <!-- Event information page -->
+    <section class="hauntedhouse-container">
+      <div class="hauntedhouse-header p-4">
+        <img src="assets/images/hauntedhousegif.gif" height="150" width="150" />
+        <h1 class="text-white text-center pt-3">Haunted House</h1>
+        <img src="assets/images/hauntedhousegif.gif" height="150" width="150" />
+      </div>
+      <div class="hauntedhouse-div pb-5">
+        <h2 class="haunted-header text-center p-3">Event Details:</h2>
+        <h3 class="text-white text-center pb-4">
+          Experience a night of your nightmares walking through our haunted
+          house. Enter the house at the start and try to explore the house and
+          find the exit... before <span class="emphasized">they</span> catch
+          you.
+        </h3>
+        <div class="hauntedimage-container">
+          <img
+            src="assets/images/hauntedhouse-purplebathroom.png"
+            width="300"
+            height="300"
+          />
+          <img
+            src="assets/images/hauntedhouse-purpletubbies.png"
+            width="300"
+            height="300"
+          />
+          <img
+            src="assets/images/hauntedhouse-yellowtubbies.png"
+            width="300"
+            height="300"
+          />
+        </div>
+        <div class="row text-white pt-5 pb-">
+          <div class="col-md-6">
+            <h4 class="text1">Event Date</h4>
+            <p class="text2">31.10.2023</p>
           </div>
           <div class="col-md-6">
-            <a class="events-link" href="maze.html">
-              <div>
-                <h1>Maze</h1>
-                <div>
-                  <img
-                    src="assets/images/cornmazeimage.webp"
-                    alt="image of a scary corn maze"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </a>
+            <h4 class="text1">Event Time</h4>
+            <p class="text2">23:00 - 02:30</p>
           </div>
-          <!-- Second row with 2 event containers -->
+        </div>
+        <div class="row text-white">
           <div class="col-md-6">
-            <a class="events-link" href="zombies.html">
-              <div>
-                <h1>Zombie Apocalypse</h1>
-                <div>
-                  <img
-                    src="assets/images/zombieimage.jpeg"
-                    alt="image of a zombie apocalypse"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </a>
+            <h4 class="text1">Event Location</h4>
+            <p class="text2">Haunted House</p>
           </div>
           <div class="col-md-6">
-            <a class="events-link" href="hauntedhouse.html">
-              <div>
-                <h1>Haunted House</h1>
-                <div>
-                  <img
-                    src="assets/images/hauntedhouseimage.jpeg"
-                    alt="image of a haunted house"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </a>
+            <h4 class="text1">Admission</h4>
+            <p class="text2">$15 per person</p>
           </div>
         </div>
       </div>
