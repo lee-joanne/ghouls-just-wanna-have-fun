@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+
+
+body{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),url('../../assets-costume-page/images/background3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1, h2, h3,h4 {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+body, a, footer, i {
+    cursor: url('../images/monster-hand-pointing.png'), auto;	
+}
+
+nav {
+    background-color: black !important;
+    font-family: 'Delicious Handrawn', cursive !important;
+}
+
+nav a {
+    color: #FF6600 !important;
+    font-size: 20px !important;
+}
+
+nav a:hover {
+    color: #228B22 !important;
+}
+
+
+.main-text {
+    font-family: 'Butcherman';
+    z-index: 1;
+    color: black;
+    font-size: 6em;
+    letter-spacing: 3px;
+}
+
+.text {
+    font-family: 'Butcherman';
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+.text1,h4 {
+    font-size: 2em;
+    font-family: 'Delicious Handrawn', cursive;
+    text-transform: uppercase;
+}
+
+.text2 {
+    color: #FF6600;
+    font-size: 1.5em;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.details {
+    color: aliceblue;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.details .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.details .cta-inner:before {
+  border-radius: 0.5rem;
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.expect {
+  background-color: rgb(0, 0, 0, 0.6);
+  color:whitesmoke;
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+}
+
+.images {
+  position: relative;
+  padding: 4rem;
+  margin: 1rem;
+}
+
+footer {
+    height: 20px;
+    bottom: 0;
+    position: relative;
+    color: #f5f5f5;
+    background-color: #000000;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: #000000;
+    color: #f5f5f5;
+}
+
+.social-networks > li {
+    display: inline;
+    padding: 0 5%;
+}
+
+.social-networks i {
+    bottom: 1%;
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: #f5f5f5;
+    cursor: url('./assets/images/monster-hand-pointing.png'), auto;	
+}
+
