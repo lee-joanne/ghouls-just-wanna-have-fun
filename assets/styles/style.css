@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
 
 h1, h2, h3 {
     font-family: 'Delicious Handrawn', cursive;
@@ -26,10 +27,36 @@ nav a:hover {
     color: #228B22 !important;
 }
 
-.event-container {
-    padding: 10px;
-    border-radius: 25px;
-    /* Adjust the value as needed for the desired spacing */
+.events-header {
+    font-family: 'Butcherman';
+}
+
+.events-link {
+    color: #FF6600;
+    transition: transform 0.3s;
+}
+
+.events-link:hover {
+    text-decoration: none;
+    color:#228B22;
+    transform: scale(0.9);
+}
+
+.events {
+    background-image: url(../images/eventsbackground.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.events-link img {
+    border-radius: 10%;
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.events-link img:hover {
+    transform: scale(0.9);
 }
 
 .house {

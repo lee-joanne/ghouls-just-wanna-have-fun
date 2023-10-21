@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
 
+body, a, footer, i {
+    cursor: url('../../assets/images/'), auto;	
+}
 
 body{
     background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),url('../../assets-costume-page/images/background3.jpg');
@@ -15,7 +18,7 @@ h1, h2, h3,h4 {
 }
 
 body, a, footer, i {
-    cursor: url('../images/monster-hand-pointing.png'), auto;	
+    cursor: url('../../assets/images/monster-hand-pointing.png'), auto;	
 }
 
 nav {
