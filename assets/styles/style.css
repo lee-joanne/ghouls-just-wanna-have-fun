@@ -366,8 +366,9 @@ footer {
 }
 
 #email-fail,
-#email-success {
+#email-success h2 {
     color: #FF6600 !important;
+    font-family: 'Delicious Handrawn', cursive !important;
 }
 
 /* 404 Page */
