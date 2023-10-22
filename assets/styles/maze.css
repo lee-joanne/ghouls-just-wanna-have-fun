@@ -526,9 +526,11 @@ position: relative;
   /* font-family: 'Nosifer'; */
   font-family: 'Eater';
   word-spacing: 10px;
+  padding-top: 2rem;
 }
 
-.what-expect-section h2 {
+/* .what-expect-section h2,  */
+.expect-title {
   color: rgba(255, 0, 0, 0.9);
   font-family: 'Nosifer';
   font-size: 3rem;
@@ -595,4 +597,101 @@ position: relative;
 
 #vampire-text {
   color: #8B0000;
+}
+
+/* event - details */
+
+/* 
+when hovering displaying all the cards one by one
+.smoke .card {
+  opacity: 0;
+  filter: blur(20px);
+  transition: all 2s linear;
+  border: 2px solid red;
+}
+
+.smoky-container:hover .smoke .card {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.smoke .card:nth-child(1) {
+  transition-delay: 0s;
+}
+.smoke .card:nth-child(2) {
+  transition-delay: .4s;
+}
+.smoke .card:nth-child(3) {
+  transition-delay: .8s;
+}
+.smoke .card:nth-child(4) {
+  transition-delay: 1.2s;
+}
+.smoke .card:nth-child(5) {
+  transition-delay: 1.6s;
+}  */
+
+/* for each card */
+/* Your existing styles... */
+
+/* Default state of the smoke effect on each card */
+.smoky-container .smoke {
+  opacity: 0;
+  filter: blur(20px);
+  transition: all 2s linear;
+}
+
+/* Hover effect on the individual card to reveal its content */
+.smoky-container:hover .smoke {
+  opacity: 1;
+  filter: blur(0);
+  font-family: 'Nosifer';
+  font-size: 1.5rem;
+  color: #8B0000;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    transition: all 2s linear;
+}
+.card > div > p {
+  font-family: 'Eater';
+  /* font-weight: bold; */
+}
+
+/* space between the cards */
+.card:not(:last-child) {
+    /* padding: 5px; */
+}
+
+.event-details {
+   position: relative;
+   z-index: 1;
+   background-color: #110D04;
+}
+
+.ghost {
+  animation: ghostAppearing 10s infinite alternate;
+  background: url('../images/ghost-bg.png') no-repeat center;
+  /* background: url('https://th.bing.com/th/id/OIG.sHUL7nkQYvRnLGs2xQhD?w=270&h=270&c=6&r=0&o=5&dpr=1.4&pid=ImgGn') no-repeat center; */
+  background-size: cover;
+  opacity: 0.4;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 200px;
+  height: 300px;
+  z-index: -1;
+}
+
+@keyframes ghostAppearing {
+  0% {
+      opacity: 0.1;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 0.5;
+      transform: translateY(-20px);
+  }
 }
