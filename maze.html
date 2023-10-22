@@ -366,10 +366,12 @@
           const ghostElementBg = document.createElement('div');
           ghostElementBg.className = 'ghost';
 
+          const ghostWidth = 200;
+          const ghostHeight = 200;
           // Random position for the ghost
           const randomLeft = Math.random() * (window.innerWidth - 100);
           const randomTop = Math.random() * (window.innerHeight - 100);
-
+  
           ghostElementBg.style.left = `${randomLeft}px`;
           ghostElementBg.style.top = `${randomTop}px`;
 
@@ -377,7 +379,7 @@
       }
 
       // Create multiple ghosts
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 5; i++) {
           createRandomGhost();
       }
 
