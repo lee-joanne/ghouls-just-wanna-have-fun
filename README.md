@@ -8,6 +8,8 @@
 
 ![Alt Text](./assets/images/amiresponsive.png)
 
+[View live project here](https://lee-joanne.github.io/ghouls-just-wanna-have-fun/)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -160,7 +162,28 @@ Our website is fully responsive, ensuring an optimal user experience on mobile, 
 
 ## Deployment
 
-You can access the final deployed version of our website here: [Insert Live Link]
+The website was deployed using GitHub Pages. The following steps were taken for the deployment process:
+
+  1. Log in to **[GitHub](https://github.com/)**.
+  2. Click on the profile icon to locate **'Your repositories'**. 
+  3. On the repository page, click on the repository you wish to deploy.
+  4. At the top of the repository, locate the **'Settings'** link and click.
+  5. On the Settings page, locate the **'Pages'** section in the left-hand navigation section and click.
+  6. On the GitHub Pages page, under **'Source'** click **'Main'**. Click **'Save'**.
+  7. Refresh the page and the live link is ready. 
+
+  [View Live Project Here](https://lee-joanne.github.io/cork-paints/)
+
+  The following steps were taken for the cloning process: 
+
+  1. Log in to **[GitHub](https://github.com/)**.
+  2. Click on the profile icon to locate **'Your repositories'**. 
+  3. On the repository page, click on the repository you wish to clone.
+  4. Under **'Code'**, see the different cloning options, HTTPS, SSH, and GitHub CLI. Click the prefered cloning option, and then copy the link provided. 
+  5. Open **Terminal**.
+  6. In Terminal, change the current working directory to the desired location of the cloned directory.
+  7. Type git clone, and then paste the URL copied from GitHub earlier. 
+  8. Type **Enter** to create the local clone. 
 
 ## Credits
 
