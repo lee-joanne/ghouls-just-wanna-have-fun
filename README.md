@@ -1,221 +1,140 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ghouls Just Wanna Have Fun
 
-Welcome robinoldman,
+## Table of Contents
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Design](#design)
+- [Technologies Used](#technologies-used)
+- [User Experience (UX)](#user-experience-ux)
+- [Wireframes](#wireframes)
+- [Contact Page](#contact-page)
+- [Events](#events)
+- [Events Detail Page & Modal Window](#events-detail-page--modal-window)
+- [404 Page](#404-page)
+- [Responsive Webpages](#responsive-webpages)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Introduction
 
-## Gitpod Reminders
+Welcome to **Ghouls Just Wanna Have Fun**, where we make your darkest fantasies come to life. We are a passionate team dedicated to crafting supernatural and spine-chilling experiences. If you thirst for the eerie and crave the paranormal, you're in the right place.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Our mission is to blur the line between reality and the supernatural, taking you on a journey into the unknown. From hair-raising haunted houses to cryptic escape rooms, our immersive events will transport you to the heart of the unexplained.
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Themed Events
 
-Another blue button should appear to click: _Open Browser_.
+- Each of our events is a meticulously crafted masterpiece, featuring an array of eerie themes and chilling settings, from gothic castles to abandoned asylums.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Immersive Experiences
 
-A blue button should appear to click: _Make Public_,
+- We take pride in our attention to detail, weaving rich narratives that will have you questioning the boundaries of reality.
 
-Another blue button should appear to click: _Open Browser_.
+### Professional Performers
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Our team of talented actors, illusionists, and paranormal experts will keep you spellbound from the moment you arrive.
 
-To log into the Heroku toolbelt CLI:
+### Customization
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- We'll work closely with you to ensure your event is tailor-made to your darkest desires and requirements.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Seasonal Spooks
 
-------
+- Whether it's Halloween, Friday the 13th, or any other occasion, we'll make sure your event is a chilling success.
 
-## Release History
+## Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Our website's design reflects the mysterious and chilling nature of our events. We've incorporated hauntingly beautiful visuals, a dark color scheme, and eerie fonts to immerse visitors in the supernatural.
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Technologies Used
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Languages Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- HTML5
+- CSS3
+- JavaScript
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Frameworks, Libraries & Programs Used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- Bootstrap: For creating responsive web pages.
+- JQuery: For enhancing the user experience.
+- [insert any other technologies you've used]
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## User Experience (UX)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### User Stories
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+1. **Responsive Webpages (#25)**
+   - As a user, I can effectively browse the webpage on mobile, tablet, and desktop devices, ensuring ease of access on any device.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+2. **Events Page (#13)**
+   - As a user, I can view the events on a separate page to see what events the business offers.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+3. **404 Page (#10)**
+   - As a user, I can view a 404 page when reaching a non-existent link for a more friendly-format view and redirection to the website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+4. **Contact Page (#6)**
+   - As a user, I can visit the contact page and send an email to the business to get in touch if I have further questions.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+5. **Events Detail Page & Modal Window (#5)**
+   - As a user, I can view detailed information about each event on a modal window, making it convenient to understand the events without navigating to another page.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+6. **Homepage (#3)**
+   - As a user, I can view the about page on the homepage to better understand what the business is and what it offers.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+7. **Easter Eggs (#2)**
+   - As a user, I can discover fun Halloween-themed easter eggs throughout the website for an engaging experience.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+8. **Navigation Bar (#1)**
+   - As a user, I can access the navigation bar with ease to navigate to various pages across the website.
 
-------
+## Wireframes
 
-## FAQ about the uptime script
+The wireframes for our website were created to ensure an organized development process. They include desktop, tablet, and mobile views for various pages.
 
-**Why have you added this script?**
+[Insert wireframe images here]
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Contact Page
 
-**How will this affect me?**
+The contact page allows users to send emails to the business for inquiries, providing a direct channel for communication.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Events
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+We offer a variety of themed events, each meticulously crafted to immerse you in a world of the supernatural. From haunted houses to escape rooms, we've got the eerie experiences you crave.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Events Detail Page & Modal Window
 
-**So….?**
+Users can explore detailed information about each event on a modal window, making it convenient to understand the events without navigating to another page.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## 404 Page
 
-**Can I opt out?**
+In the event of a non-existent link, users will be greeted with a user-friendly 404 page, offering redirection to the website.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Responsive Webpages
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Our website is fully responsive, ensuring an optimal user experience on mobile, tablet, and desktop devices.
 
-**Anything more?**
+## Deployment
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+You can access the final deployed version of our website here: [Insert Live Link]
 
----
+## Credits
 
-Happy coding! Happy coding guys!
-=======
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+### Code
 
-Welcome USER_NAME,
+- [Insert code sources and references here]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Media
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- [Insert sources of media, images, and icons used]
 
-## Gitpod Reminders
+### Acknowledgments
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Thanks to our dedicated team for bringing these eerie experiences to life.
+- Special thanks to our community for their support.
 
-`python3 -m http.server`
+## Conclusion
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Thank you for exploring **Ghouls Just Wanna Have Fun**. We look forward to immersing you in the supernatural and creating unforgettable, spine-chilling memories.
