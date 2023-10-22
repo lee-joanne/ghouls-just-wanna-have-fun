@@ -367,6 +367,14 @@ footer {
     color: #8B0000
 }
 
+/* Media query for homepage  */
+
+@media screen and (max-width: 1430px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}
+
 /* Media query for contact page  */
 
 @media screen and (max-width: 1050px) {
