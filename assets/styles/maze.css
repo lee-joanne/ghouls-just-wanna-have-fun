@@ -669,6 +669,7 @@ when hovering displaying all the cards one by one
    position: relative;
    z-index: 1;
    background-color: #110D04;
+   max-width: 100%;
 }
 
 .ghost {
@@ -681,7 +682,7 @@ when hovering displaying all the cards one by one
   top: 20%;
   left: 40%;
   width: 200px;
-  height: 300px;
+  height: 200px;
   z-index: -1;
 }
 

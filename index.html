@@ -261,9 +261,12 @@
         const ghostElementBg = document.createElement("div");
         ghostElementBg.className = "ghost";
 
-        // Random position for the ghost
-        const randomLeft = Math.random() * (window.innerWidth - 100);
-        const randomTop = Math.random() * (window.innerHeight - 100);
+          // Random position for the ghost
+        const ghostWidth = 100;
+        const ghostHeight = 100;
+
+        const randomLeft = Math.random() * (window.innerWidth - ghostWidth);
+        const randomTop = Math.random() * (window.innerHeight - ghostHeight);
 
         ghostElementBg.style.left = `${randomLeft}px`;
         ghostElementBg.style.top = `${randomTop}px`;

@@ -267,21 +267,20 @@ h5 {
   position: relative;
   z-index: 1;
   background-color: #110D04;
+  max-width: 100%;
 }
 
 .ghost {
-  /* border: 4px solid red; */
- animation: ghostAppearing 10s infinite alternate;
- background: url('../images/ghost-bg.png') no-repeat center;
- /* background: url('https://th.bing.com/th/id/OIG.sHUL7nkQYvRnLGs2xQhD?w=270&h=270&c=6&r=0&o=5&dpr=1.4&pid=ImgGn') no-repeat center; */
- background-size: cover;
- opacity: 0.4;
- position: absolute;
- top: 20%;
- left: 40%;
- width: 200px;
- height: 300px;
- z-index: -1;
+  animation: ghostAppearing 10s infinite alternate;
+  background: url('../images/ghost-bg.png') no-repeat center;
+  /* background: url('https://th.bing.com/th/id/OIG.sHUL7nkQYvRnLGs2xQhD?w=270&h=270&c=6&r=0&o=5&dpr=1.4&pid=ImgGn') no-repeat center; */
+  background-size: cover;
+  opacity: 0.4;
+  position: absolute;
+  top: 20%;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
 }
 
 @keyframes ghostAppearing {
