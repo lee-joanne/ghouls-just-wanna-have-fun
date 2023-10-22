@@ -5,6 +5,7 @@ h1,
 h2,
 h3 {
     font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Nosifer';
 }
 
 p {
@@ -244,8 +245,8 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    color: #fff;
-    font-size: 500%;
+    /* color: #8B0000; */
+    font-size: 450%;
     padding-top: 60vh;
     /* Adjust the font size as needed */
 }
@@ -259,6 +260,41 @@ nav a:hover {
 
 h5 {
     color: #FF6600;
+    font-family: 'Nosifer';
+}
+
+/* info section ghost */
+
+.info {
+  position: relative;
+  z-index: 1;
+  background-color: #110D04;
+}
+
+.ghost {
+  /* border: 4px solid red; */
+ animation: ghostAppearing 10s infinite alternate;
+ background: url('../images/ghost-bg.png') no-repeat center;
+ /* background: url('https://th.bing.com/th/id/OIG.sHUL7nkQYvRnLGs2xQhD?w=270&h=270&c=6&r=0&o=5&dpr=1.4&pid=ImgGn') no-repeat center; */
+ background-size: cover;
+ opacity: 0.4;
+ position: absolute;
+ top: 20%;
+ left: 40%;
+ width: 200px;
+ height: 300px;
+ z-index: -1;
+}
+
+@keyframes ghostAppearing {
+ 0% {
+     opacity: 0.1;
+     transform: translateY(20px);
+ }
+ 100% {
+     opacity: 0.5;
+     transform: translateY(-20px);
+ }
 }
 
 footer {
