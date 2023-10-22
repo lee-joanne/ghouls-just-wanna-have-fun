@@ -172,7 +172,7 @@ The website was deployed using GitHub Pages. The following steps were taken for 
   6. On the GitHub Pages page, under **'Source'** click **'Main'**. Click **'Save'**.
   7. Refresh the page and the live link is ready. 
 
-  [View Live Project Here](https://lee-joanne.github.io/cork-paints/)
+  [View live project here](https://lee-joanne.github.io/ghouls-just-wanna-have-fun/)
 
   The following steps were taken for the cloning process: 
 
