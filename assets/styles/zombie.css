@@ -6,7 +6,7 @@
 
 body {
     background-color: #000000;
-    
+
 }
 
 header {
@@ -62,7 +62,7 @@ h1 {
     }
 }
 
-h2 {
+h2, h5 {
     font-family: 'Nosifer', sans-serif;
     color: #228B22;
 }
@@ -85,6 +85,11 @@ h3 {
     max-width: fit-content;
     border-radius: 30px;
     padding: 3%;
+    margin: auto;
+    height: auto;
+    width: 75%;
+    text-align: center;
+
 }
 
 .scare-meter {
