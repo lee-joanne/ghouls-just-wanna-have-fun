@@ -6,12 +6,11 @@ body, a, footer, i {
 }
 
 body{
-    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),url('../../assets-costume-page/images/background3.jpg');
+    background-image: linear-gradient(rgba(47, 23, 15, 0.55), rgba(47, 23, 15, 0.65)),url('../../assets-costume-page/images/background3.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
-
 
 h1, h2, h3,h4 {
     font-family: 'Delicious Handrawn', cursive;
@@ -42,9 +41,50 @@ nav a:hover {
 .main-text {
     font-family: 'Butcherman';
     z-index: 1;
-    color: black;
+    color: white;
     font-size: 6em;
     letter-spacing: 3px;
+    animation: flicker 1s 1ms infinite;
+}
+
+@keyframes flicker {
+    0%, 4%, 8% {
+        text-shadow: none;
+        color: #111111;
+    }
+    2%, 6% {
+        text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
+        color: #fa6701;
+    }
+    52% {
+        text-shadow: 0 0 8px rgba(250, 103, 1, 0.6),
+            0 0 16px rgba(250, 103, 1, 0.4), 
+            0 0 20px rgba(255, 0, 84, 0.2), 
+            0 0 22px rgba(255, 0, 84, 0.1);
+        color: #fa6701;
+    }
+    100% {
+        text-shadow: 0 0 8px rgba(250, 103, 1, 0.6),
+            0 0 16px rgba(250, 103, 1, 0.4), 
+            0 0 20px rgba(255, 0, 84, 0.2), 
+            0 0 22px rgba(255, 0, 84, 0.1);
+        color: #fa6701;
+    }
+}
+
+.section1, .section2 {
+            animation: fadeInUp 1s ease-in-out 0.5s both;
+        }
+
+ @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .text {
@@ -63,6 +103,14 @@ nav a:hover {
     color: #FF6600;
     font-size: 1.5em;
     font-family: 'Delicious Handrawn', cursive;
+}
+
+.w{
+    color: white;
+}
+
+section img {
+    width: 80px;
 }
 
 .details {
