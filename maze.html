@@ -201,7 +201,7 @@
           <div class="col-md-12">
             <div class="row">
               <!-- Add an inner row -->
-              <div class="col-md-5 d-flex align-items-center">
+              <div class="col-md-5 d-flex align-items-center info-section-para">
                 <!-- Use d-flex and align-items-center to vertically center the content -->
                 <div class="info-text">
                   <h2 class="smoky-text smoky-text-title">
@@ -232,6 +232,52 @@
         </div>
       </section>
 
+      <section class="event-details py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="expect-title" style="color: #d30000;">Event Details!</h2>
+            </div>
+            <div class="details-grid row">
+                <!-- Each card becomes its own smoky-container -->
+                <div class="card smoky-container col-md-3">
+                    <div class="icon smoke"></div>
+                    <div class="smoke">
+                        <strong>Date</strong>
+                        <p style="color:red;">October 31, 2023</p>
+                    </div>
+                </div>
+                <div class="card smoky-container col-md-3">
+                    <div class="icon smoke"></div>
+                    <div class="smoke">
+                        <strong>Time</strong>
+                        <p style="color:rgb(5, 5, 190);">6:00 PM - Midnight</p>
+                    </div>
+                </div>
+                <div class="card smoky-container col-md-3">
+                    <div class="icon smoke"></div>
+                    <div class="smoke">
+                        <strong>Venue</strong>
+                        <p style="color:green;">Mystery Farms, 123 Scary St, Ghost Town</p>
+                    </div>
+                </div>
+                <!-- <div class="card smoky-container col-md-3">
+                    <div class="icon smoke"><i class="ticket-icon"></i></div>
+                    <div class="smoke">
+                        <strong>Tickets</strong>
+                        <p>Available at the entrance</p>
+                    </div>
+                </div> -->
+                <div class="card smoky-container col-md-3">
+                    <div class="icon smoke"></div>
+                    <div class="smoke">
+                        <strong>Age Restrictions</strong>
+                        <p style="color:rgb(5, 5, 190);">13+ (Under 13 needs guardian)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    
       <section class="what-expect-section pt-5 pb-5">
         <div class="text-center mb-5">
           <h2 class="expect-title">What to expect?</h2>
@@ -294,7 +340,7 @@
           </div>
         </div>
       </section>
-    </div>
+  
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
@@ -308,6 +354,33 @@
     <!-- <script src="./assets/js/script.js"></script> -->
 
     <script>
+
+      // Add one ghostly fignure in bg
+      // const ghostElementBg = document.createElement('div');
+      // ghostElementBg.className = 'ghost';
+      // // Append to the 'event-details' section instead of the whole body
+      // document.querySelector('.event-details').appendChild(ghostElementBg);
+
+
+      function createRandomGhost() {
+          const ghostElementBg = document.createElement('div');
+          ghostElementBg.className = 'ghost';
+
+          // Random position for the ghost
+          const randomLeft = Math.random() * (window.innerWidth - 100);
+          const randomTop = Math.random() * (window.innerHeight - 100);
+
+          ghostElementBg.style.left = `${randomLeft}px`;
+          ghostElementBg.style.top = `${randomTop}px`;
+
+          document.querySelector('.event-details').appendChild(ghostElementBg);
+      }
+
+      // Create multiple ghosts
+      for (let i = 0; i < 4; i++) {
+          createRandomGhost();
+      }
+
       // witch house
       var animation = lottie.loadAnimation({
         container: document.getElementById("lottie-container"),
