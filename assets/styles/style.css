@@ -47,10 +47,14 @@ nav a:hover {
 }
 
 .events {
-    background-image: url(../images/eventsbackground.jpeg);
-    background-size: cover;
+    background-color: black;
+}
+
+.events-banner {
+    background-image: url(../images/eventsbanner.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
 }
 
 .events-link img {
