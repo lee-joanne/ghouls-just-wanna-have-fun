@@ -239,7 +239,7 @@ nav a:hover {
     transform: translate(-50%, -50%);
     z-index: 1;
     /* color: #8B0000; */
-    font-size: 450%;
+    font-size: 300%;
     padding-top: 60vh;
     /* Adjust the font size as needed */
 }
@@ -396,7 +396,7 @@ footer {
 
 @media screen and (max-width: 1430px) {
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
