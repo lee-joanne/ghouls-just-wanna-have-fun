@@ -1,0 +1,89 @@
+.hauntedhouse-header h1 {
+    font-family: 'Butcherman';
+}
+
+.hauntedhouse-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(../images/hauntedhouse-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hauntedhouse-div {
+    margin: auto;
+    height: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.hauntedhouse-details {
+    background-color: black;
+}
+
+.hauntedhouse-div h3 {
+    margin: 0 100px;
+}
+
+.hauntedhouse-div h4 {
+    color: #FF6600;
+    font-family: 'Delicious Handrawn', cursive !important;
+    font-size: 30px;
+}
+
+.details-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.haunted-header {
+    color: #FF6600;
+}
+
+.hauntedimage-container img {
+    border-radius: 50%;
+}
+
+.hauntedimage-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.emphasized { font-style: italic; }
+
+.scare-meter {
+    color: #f5f5f5;
+    margin: 0 25%;
+    max-width: 75%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+    .hauntedhouse-div h3 {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .details-container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .hauntedhouse-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hauntedhouse-header h1 {
+        font-size: 30px;
+    }
+}
+
