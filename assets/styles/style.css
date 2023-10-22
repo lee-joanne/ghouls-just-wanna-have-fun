@@ -169,6 +169,10 @@ footer {
     color: #FF6600 !important;    
 }
 
+#email-fail, #email-success {
+   color: #FF6600 !important;
+}
+
 /* 404 Page */
 
 .fourohfour-container {
