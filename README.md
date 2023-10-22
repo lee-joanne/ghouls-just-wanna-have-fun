@@ -1,4 +1,12 @@
+<h1 align="center"><strong>🎃🎃🎃 Phantom Forge: A Halloween Hackathon 🎃🎃🎃</strong>
+
+</h1>
+
+<img src="https://res.cloudinary.com/djdefbnij/image/upload/v1695815394/October-banner_alm4vx.jpg" alt="PhantomForgeBanner" width="1200"/>
+
 # Ghouls Just Wanna Have Fun
+
+![Alt Text](./assets/images/amiresponsive.png)
 
 ## Table of Contents
 
