@@ -69,8 +69,9 @@
       <div class="hero-overlay">
         <div class="container">
           <div class="text-center">
-            <h1 class="hero-title text-white pb-5">
-              Welcome to <span class="g" style="color: #8B0000;">Ghouls</span> Events!
+            <h1 class="hero-title text-white">
+              Welcome to
+              <span class="g" style="color: #8b0000">Ghouls</span> Events!
             </h1>
           </div>
           <div class="whole-randon-container1">
@@ -257,22 +258,22 @@
 
     <script>
       function createRandomGhost() {
-        const ghostElementBg = document.createElement('div');
-        ghostElementBg.className = 'ghost';
+        const ghostElementBg = document.createElement("div");
+        ghostElementBg.className = "ghost";
 
-          // Random position for the ghost
+        // Random position for the ghost
         const randomLeft = Math.random() * (window.innerWidth - 100);
         const randomTop = Math.random() * (window.innerHeight - 100);
 
         ghostElementBg.style.left = `${randomLeft}px`;
         ghostElementBg.style.top = `${randomTop}px`;
 
-        document.querySelector('.info').appendChild(ghostElementBg);
+        document.querySelector(".info").appendChild(ghostElementBg);
       }
 
       // Create multiple ghosts
       for (let i = 0; i < 5; i++) {
-          createRandomGhost();
+        createRandomGhost();
       }
     </script>
   </body>
