@@ -12,12 +12,16 @@ body{
     background-size: cover;
 }
 
-h1, h2, h3,h4 {
+h1, h2, h3, h4 {
     font-family: 'Delicious Handrawn', cursive;
 }
 
 body, a, footer, i {
     cursor: url('../../assets/images/monster-hand-pointing.png'), auto;	
+}
+
+.section-heading, .grow-on-hover {
+    font-family: 'Delicious Handrawn', cursive;
 }
 
 nav {
