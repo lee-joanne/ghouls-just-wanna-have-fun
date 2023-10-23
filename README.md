@@ -6,7 +6,7 @@
 
 # Ghouls Just Wanna Have Fun
 
-![Alt Text](./assets/images/amiresponsive.png)
+![Alt Text](assets/images/amiresponsive.png)
 
 [View live project here](https://lee-joanne.github.io/ghouls-just-wanna-have-fun/)
 
